@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
   amd_comgr_metadata_kind_t mkind = AMD_COMGR_METADATA_KIND_NULL;
 
   // Read input file
-  size1 = setBuf(TEST_OBJ_DIR "/shared-v3.so", &buf);
+  size1 = setBuf(TEST_OBJ_DIR "/dump-gfx900.hsaco", &buf);
 
   // Create data object
   {
